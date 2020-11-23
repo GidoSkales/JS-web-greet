@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    text-rendering: optimizeLegibility;
+    font-size: 2em;
+    font-family: 'Lato';
+}
+body {
+    box-sizing: border-box;
+    font-size: 1.1rem;
+}
+html,body {
+    min-height: 100%;
+}
+.container {
+    max-width: 90rem;
+    padding: 0 1.5rem;
+    overflow: hidden;
+}
+.msg-cont {
+    padding: 1em 0;
+}
+.msg-box {
+    border: 3px solid rgb(1, 1, 17);
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    background: tomato;
+    color: #ffffff;
+    font-weight: 500;
+}
+.msg-box p {
+    font-size: 20px;
+}
+#msg {
+    text-align: center;
+}
+button {
+   padding: 10px;
+   position: absolute;
+   cursor: pointer;
+   font-weight: bold;
+   color: green;
+}
+
+@media (max-width: 768px){
+    .container {
+        padding: 0 10px;
+    }
+}
